@@ -18,11 +18,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QNB-Il-UWO">
-                                <rect key="frame" x="20" y="467" width="374" height="395"/>
+                                <rect key="frame" x="20" y="461" width="374" height="401"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oIM-cu-AqW">
-                                <rect key="frame" x="20" y="64" width="374" height="395"/>
+                                <rect key="frame" x="20" y="52" width="374" height="401"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
                         </subviews>
@@ -30,7 +30,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="QNB-Il-UWO" firstAttribute="width" secondItem="oIM-cu-AqW" secondAttribute="width" id="1jz-My-uvo"/>
-                            <constraint firstItem="oIM-cu-AqW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="HtM-aI-s3L"/>
+                            <constraint firstItem="oIM-cu-AqW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="HtM-aI-s3L"/>
                             <constraint firstItem="QNB-Il-UWO" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="RNF-4I-5i0"/>
                             <constraint firstItem="QNB-Il-UWO" firstAttribute="height" secondItem="oIM-cu-AqW" secondAttribute="height" id="RhE-eI-TXO"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oIM-cu-AqW" secondAttribute="trailing" constant="20" id="Spj-R6-eSg"/>
